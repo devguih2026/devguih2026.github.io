@@ -97,7 +97,7 @@ footer {
     align-items: center;
     justify-content: center;
 
-    color: #000000;
+    color: #fdf8f8;
     font-size: 1.6rem;
     line-height: 1;
 
@@ -108,5 +108,19 @@ footer {
     opacity: 0.8;
     transform: translateY(-2px);
 }
+
+@media (max-width: 768px) {
+    .contato {
+        position: static;       /* deixa de ser absoluto */
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contato-links {
+        justify-content: center;
+    }
+}
+
 
 
